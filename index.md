@@ -280,9 +280,10 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
 <h2 id="setup">Setup</h2>
 
 <p>
-This majority of this workshop is designed to be run on pre-imaged Amazon Web Services (AWS) instances. All the software and data used in the workshop are hosted on an Amazon Machine Image (AMI).
-  
-  To participate in this
+This majority of this Genomics workshop is designed to be run on pre-imaged Amazon Web Services (AWS) instances and the software and data used in the workshop are hosted on an Amazon Machine Image (AMI). This will be set up for you in advance of the workshop.
+</p
+ <p> 
+ To participate in this 
   {% if page.carpentry == "swc" %}
   Software Carpentry
   {% elsif page.carpentry == "dc" %}
@@ -291,7 +292,7 @@ This majority of this workshop is designed to be run on pre-imaged Amazon Web Se
   Library Carpentry
   {% endif %}
   workshop,
-  you will need access to the software described below.
+  you will also need access to the software described below.
   In addition, you will need an up-to-date web browser.
 </p>
 <p>
