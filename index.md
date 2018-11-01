@@ -280,7 +280,9 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
 <h2 id="setup">Setup</h2>
 
 <p>
-  To participate in a
+This majority of this workshop is designed to be run on pre-imaged Amazon Web Services (AWS) instances. All the software and data used in the workshop are hosted on an Amazon Machine Image (AMI).
+  
+  To participate in this
   {% if page.carpentry == "swc" %}
   Software Carpentry
   {% elsif page.carpentry == "dc" %}
@@ -297,11 +299,6 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
   that may be useful on the
   <a href = "{{site.swc_github}}/workshop-template/wiki/Configuration-Problems-and-Solutions">Configuration Problems and Solutions wiki page</a>.
 </p>
-
-
-
-
-
 
 
 
