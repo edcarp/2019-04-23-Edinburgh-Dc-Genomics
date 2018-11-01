@@ -279,9 +279,7 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
 
 <h2 id="setup">Setup</h2>
 
-<p>
-This majority of this Genomics workshop is designed to be run on pre-imaged Amazon Web Services (AWS) instances and the software and data used in the workshop are hosted on an Amazon Machine Image (AMI). This will be set up for you in advance of the workshop.
-</p>
+
  <p> 
  To participate in this 
   {% if page.carpentry == "swc" %}
@@ -292,15 +290,13 @@ This majority of this Genomics workshop is designed to be run on pre-imaged Amaz
   Library Carpentry
   {% endif %}
   workshop,
-  you will also need access to the software described below and an up-to-date web browser.
+  you will need access to the R software described below and an up-to-date web browser.
 </p>
 <p>
   We maintain a list of common issues that occur during installation as a reference for instructors
   that may be useful on the
   <a href = "{{site.swc_github}}/workshop-template/wiki/Configuration-Problems-and-Solutions">Configuration Problems and Solutions wiki page</a>.
-</p>
-
-
+ </p>
 
 <div id="r"> {% comment %} Start of 'R' section. {% endcomment %}
   <h3>R</h3>
