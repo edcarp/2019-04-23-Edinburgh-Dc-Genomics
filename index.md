@@ -251,7 +251,10 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
   please preview your site before committing, and make sure to run
   'tools/check' as well.
 {% endcomment %}
+
+{% comment %}
 <h2 id="syllabus">Syllabus</h2>
+{% endcomment %}
 
 {% if page.carpentry == "swc" %}
   {% include sc/syllabus.html %}
@@ -260,6 +263,7 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
 {% elsif page.carpentry == "lc" %}
   {% include lc/syllabus.html %}
 {% endif %}
+
 
 <hr/>
 
